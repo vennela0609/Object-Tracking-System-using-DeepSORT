@@ -8,6 +8,7 @@ conda activate tracker-cpu
 OR use pip
 pip install -r requirements.txt
 
+# Load the weights
 In order to load the weights and convert into a tensorflow model,
 
 python load_weights.py
