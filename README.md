@@ -12,9 +12,9 @@ pip install -r requirements.txt
 In order to load the weights and convert into a tensorflow model,
 
 python load_weights.py
-
+# yolov3 on the model
 In order to run the object tracker for the model, use the following commands depending on your input is recorded or a webcam.
-# yolov3 on video
+#yolov3 on video
 python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/results.avi
 
 #yolov3 on webcam 
