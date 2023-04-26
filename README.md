@@ -10,6 +10,8 @@ OR use pip
 
 pip install -r requirements.txt
 
+yolov3 weights can be downloaded from https://pjreddie.com/media/files/yolov3.weights then save them to the weights folder. (Since the data is above 25MB).
+
 # Load the weights
 In order to load the weights and convert into a tensorflow model,
 
